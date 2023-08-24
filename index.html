@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Menu</title>
+  </head>
+  <body class="m-10 max-w-5xl w-full mx-auto">
+    <header>
+      <div class="flex justify-center space-x-2 pt-12">
+        <svg class="stroke-[#2B417B]" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+        <input type="search" class="border-b-2 bg-transparent font-body placeholder:text-base w-64 sm:w-80 placeholder:text-[#0d1837] outline-none" placeholder="Search" />
+      </div>
+    </header>
+
+    <main class="mt-12 mx-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+        <a href="https://vitejs.dev/">
+          <div class="border-violet-500 card opacity-75 hover:opacity-100 shadow-lg hover:shadow-lg hover:shadow-violet-200">
+            <div class="mx-auto rounded-b h-2 w-52 bg-gradient-to-r from-purple-500 to-indigo-500"></div>
+            <div class="p-10">
+              <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 256">
+                <g fill="none">
+                  <rect width="256" height="256" fill="#242938" rx="60"/>
+                  <path fill="url(#skillIconsViteDark0)" d="m227.088 57.602l-93.832 167.787c-1.938 3.465-6.915 3.485-8.881.038L28.682 57.617c-2.142-3.756 1.07-8.306 5.328-7.545l93.932 16.79a5.1 5.1 0 0 0 1.812-.004l91.968-16.763c4.243-.773 7.47 3.742 5.366 7.507Z"/>
+                  <path fill="url(#skillIconsViteDark1)" d="m172.687 28.05l-69.438 13.605a2.548 2.548 0 0 0-2.055 2.352l-4.272 72.141a2.55 2.55 0 0 0 3.118 2.635l19.333-4.461c1.809-.417 3.443 1.176 3.072 2.995l-5.744 28.126c-.387 1.893 1.391 3.511 3.239 2.95l11.941-3.628c1.851-.562 3.63 1.061 3.238 2.956l-9.128 44.179c-.571 2.764 3.105 4.271 4.638 1.901l1.024-1.582l56.582-112.92c.948-1.89-.686-4.046-2.763-3.646l-19.899 3.841c-1.87.36-3.461-1.381-2.934-3.21l12.989-45.026c.528-1.832-1.069-3.575-2.941-3.209Z"/>
+                  <defs>
+                    <linearGradient id="skillIconsViteDark0" x1="26.346" x2="143.127" y1="44.075" y2="202.673" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#41D1FF"/>
+                      <stop offset="1" stop-color="#BD34FE"/>
+                    </linearGradient>
+                    <linearGradient id="skillIconsViteDark1" x1="122.551" x2="143.676" y1="31.743" y2="176.66" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#FFEA83"/>
+                      <stop offset=".083" stop-color="#FFDD35"/>
+                      <stop offset="1" stop-color="#FFA800"/>
+                    </linearGradient>
+                  </defs>
+                </g>
+              </svg>
+              <div class="text-2xl mt-3 flex justify-center font-body">Vite</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.adobe.com/fr/products/photoshop.html">
+          <div class="border-sky-500 card opacity-75 hover:opacity-100 shadow-lg hover:shadow-lg hover:shadow-sky-200">
+            <div class="mx-auto rounded-b h-2 w-52 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+            <div class="p-10">
+              <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 256">
+                <g fill="none">
+                  <rect width="256" height="256" fill="#001E36" rx="60"/>
+                  <path fill="#31A8FF" d="M57.6 178.04V68.28c0-.747.32-1.173 1.067-1.173c1.813 0 3.52 0 5.973-.107c2.56-.107 5.227-.107 8.107-.213c2.88-.107 5.973-.107 9.28-.214c3.306-.106 6.506-.106 9.706-.106c8.747 0 16 1.066 21.974 3.306A38.09 38.09 0 0 1 128 78.52a33.972 33.972 0 0 1 7.787 12.16c1.6 4.48 2.453 9.067 2.453 13.867c0 9.173-2.133 16.746-6.4 22.72c-4.267 5.973-10.24 10.453-17.173 13.013c-7.254 2.667-15.254 3.627-24 3.627c-2.56 0-4.267 0-5.334-.107c-1.066-.107-2.56-.107-4.586-.107v34.24c.106.747-.427 1.387-1.174 1.494H58.88c-.853 0-1.28-.427-1.28-1.387Zm23.253-90.347v35.84c1.494.107 2.88.214 4.16.214h5.654c4.16 0 8.32-.64 12.266-1.92c3.414-.96 6.4-2.987 8.747-5.654c2.24-2.666 3.307-6.293 3.307-10.986a17.56 17.56 0 0 0-2.454-9.494c-1.813-2.773-4.373-4.906-7.466-6.08c-3.947-1.6-8.214-2.24-12.587-2.133c-2.773 0-5.227 0-7.253.107c-2.134-.107-3.627 0-4.374.106ZM204.8 117.027c-3.2-1.707-6.613-2.88-10.24-3.627c-3.947-.853-7.893-1.387-11.947-1.387c-2.133-.106-4.373.214-6.4.747c-1.386.32-2.56 1.067-3.306 2.133c-.534.854-.854 1.92-.854 2.88s.427 1.92 1.067 2.774c.96 1.173 2.24 2.133 3.627 2.88a97.616 97.616 0 0 0 7.573 3.52c5.76 1.92 11.307 4.586 16.427 7.786c3.52 2.24 6.4 5.227 8.426 8.854c1.707 3.413 2.56 7.146 2.454 10.986c.106 5.014-1.387 10.027-4.16 14.187a26.73 26.73 0 0 1-11.947 9.493c-5.227 2.24-11.627 3.414-19.307 3.414c-4.906 0-9.706-.427-14.506-1.387a43.014 43.014 0 0 1-10.88-3.413c-.747-.427-1.28-1.174-1.174-2.027v-18.56c0-.32.107-.747.427-.96c.32-.213.64-.107.96.107c4.16 2.453 8.533 4.16 13.227 5.226c4.053 1.067 8.32 1.6 12.586 1.6c4.054 0 6.934-.533 8.854-1.493c1.706-.747 2.88-2.56 2.88-4.48c0-1.493-.854-2.88-2.56-4.267c-1.707-1.386-5.227-2.986-10.454-5.013a65.252 65.252 0 0 1-15.146-7.68a27.621 27.621 0 0 1-8.107-9.067c-1.707-3.413-2.56-7.146-2.453-10.88c0-4.586 1.28-8.96 3.626-12.906c2.667-4.267 6.614-7.68 11.2-9.814c5.014-2.56 11.307-3.733 18.88-3.733c4.374 0 8.854.32 13.227.96c3.2.427 6.293 1.28 9.173 2.453c.427.107.854.534 1.067.96c.107.427.213.854.213 1.28v17.387c0 .427-.213.853-.533 1.067c-.96.213-1.493.213-1.92 0Z"/>
+                </g>
+              </svg>
+              <div class="text-2xl mt-3 flex justify-center font-body">Photoshop</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.figma.com/">
+          <div class="border-orange-600 card opacity-75 hover:opacity-100 shadow-lg hover:shadow-lg hover:shadow-orange-200">
+            <div class="mx-auto rounded-b h-2 w-52 bg-gradient-to-r from-red-400 to-amber-600"></div>
+            <div class="p-10">
+              <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 256">
+                <g fill="none">
+                  <rect width="256" height="256" fill="#242938" rx="60"/>
+                  <g clip-path="url(#skillIconsFigmaDark0)">
+                    <path fill="#0ACF83" d="M94.347 228c18.4 0 33.333-14.933 33.333-33.333v-33.334H94.347c-18.4 0-33.334 14.934-33.334 33.334c0 18.4 14.934 33.333 33.334 33.333Z"/>
+                    <path fill="#A259FF" d="M61.013 128c0-18.4 14.934-33.333 33.334-33.333h33.333v66.666H94.347c-18.4 0-33.334-14.933-33.334-33.333Z"/>
+                    <path fill="#F24E1E" d="M61.013 61.333C61.013 42.933 75.947 28 94.347 28h33.333v66.667H94.347c-18.4 0-33.334-14.934-33.334-33.334Z"/>
+                    <path fill="#FF7262" d="M127.68 28h33.333c18.4 0 33.334 14.933 33.334 33.333s-14.934 33.334-33.334 33.334H127.68V28Z"/>
+                    <path fill="#1ABCFE" d="M194.347 128c0 18.4-14.934 33.333-33.334 33.333c-18.4 0-33.333-14.933-33.333-33.333s14.933-33.333 33.333-33.333S194.347 109.6 194.347 128Z"/>
+                  </g>
+                  <defs>
+                    <clipPath id="skillIconsFigmaDark0">
+                      <path fill="#fff" d="M61 28h133.36v200H61z"/>
+                    </clipPath>
+                  </defs>
+                </g>
+              </svg>
+              <div class="text-2xl mt-3 flex justify-center font-body">Figma</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://tailwindcss.com/">
+          <div class="border-teal-600 card opacity-75 hover:opacity-100 shadow-lg hover:shadow-lg hover:shadow-teal-100">
+            <div class="mx-auto rounded-b h-2 w-52 bg-gradient-to-r from-emerald-400 to-teal-700"></div>
+            <div class="p-10">
+              <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 256">
+                <g fill="none"><rect width="256" height="256" fill="#242938" rx="60"/>
+                  <path fill="url(#skillIconsTailwindcssDark0)" fill-rule="evenodd" d="M83 110c6-24 21.001-36 45-36c36 0 40.5 27 58.5 31.5c12.001 3.001 22.5-1.499 31.5-13.5c-5.999 23.999-21.001 36-45 36c-36 0-40.5-27-58.5-31.5C102.499 93.5 92 98 83 110Zm-45 54c6-23.999 21-36 45-36c36 0 40.5 27 58.5 31.5c12.001 3.001 22.5-1.499 31.5-13.5c-5.999 23.999-21.001 36-45 36c-36 0-40.5-27-58.5-31.5c-12-3.001-22.5 1.499-31.5 13.5Z" clip-rule="evenodd"/>
+                  <defs>
+                    <linearGradient id="skillIconsTailwindcssDark0" x1="86.5" x2="163.5" y1="74" y2="185.5" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#32B1C1"/>
+                      <stop offset="1" stop-color="#14C6B7"/>
+                    </linearGradient>
+                  </defs>
+                </g>
+              </svg>
+              <div class="text-2xl mt-3 flex justify-center font-body">Tailwindcss</div>
+            </div>
+          </div>
+        </a>
+        
+        <a href="https://laravel.com/">
+          <div class="border-red-700 card opacity-75 hover:opacity-100 shadow-lg hover:shadow-lg hover:shadow-red-200">
+            <div class="mx-auto rounded-b h-2 w-52 bg-gradient-to-r from-orange-600 to-red-800"></div>
+            <div class="p-10">
+              <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 256">
+                <g fill="none">
+                  <rect width="256" height="256" fill="#242938" rx="60"/>
+                  <path fill="#FF2D20" fill-rule="evenodd" d="M215.846 78.314c.064.243.098.494.098.747v39.199c0 .503-.131.997-.379 1.432a2.838 2.838 0 0 1-1.037 1.047l-32.446 18.942v37.545a2.873 2.873 0 0 1-1.409 2.48l-67.728 39.535c-.155.089-.324.146-.493.207c-.064.022-.123.061-.19.079a2.81 2.81 0 0 1-1.445 0c-.077-.022-.148-.065-.222-.093c-.155-.057-.317-.107-.465-.193l-67.714-39.535a2.848 2.848 0 0 1-1.036-1.047a2.893 2.893 0 0 1-.38-1.433V59.629c0-.258.035-.508.099-.75c.02-.083.07-.158.098-.24c.053-.15.102-.303.18-.443c.053-.093.13-.168.194-.253c.08-.115.155-.233.25-.333c.08-.082.187-.143.278-.214c.102-.086.194-.179.31-.247h.004L76.27 37.382a2.796 2.796 0 0 1 2.819 0l33.859 19.767h.007c.112.072.208.161.31.243c.091.072.193.136.274.215c.099.103.17.221.254.336c.06.085.141.16.19.253c.081.143.127.293.184.443c.028.082.077.157.098.243c.065.244.098.495.099.747v73.45l28.214-16.473v-37.55c0-.25.035-.503.099-.742c.025-.086.07-.161.099-.243c.056-.15.105-.304.183-.443c.053-.093.13-.168.19-.254c.085-.114.155-.232.254-.332c.081-.082.183-.143.275-.215c.105-.085.197-.178.31-.246h.004l33.862-19.768a2.789 2.789 0 0 1 2.818 0l33.859 19.768c.12.072.211.16.317.243c.088.071.19.136.271.214c.099.104.169.222.254.336c.063.086.141.16.19.254c.081.14.127.293.183.443c.032.082.078.157.099.243Zm-5.546 38.292V84.009l-11.849 6.916l-16.369 9.557v32.597l28.221-16.473h-.003Zm-33.859 58.966v-32.618l-16.101 9.325l-45.979 26.609v32.925l62.08-36.241ZM46.644 64.577v110.995l62.073 36.238v-32.919l-32.428-18.61l-.01-.007l-.015-.007c-.109-.064-.2-.157-.303-.236c-.088-.071-.19-.128-.267-.207l-.007-.01c-.092-.09-.156-.2-.233-.301c-.07-.096-.155-.178-.211-.278l-.004-.011c-.064-.107-.103-.236-.148-.357c-.046-.107-.106-.207-.134-.322v-.004c-.035-.135-.042-.278-.057-.418c-.014-.107-.042-.214-.042-.321V81.051L58.493 71.49l-11.849-6.91v-.003Zm31.04-21.415L49.474 59.63l28.203 16.466l28.207-16.47l-28.207-16.463h.007Zm14.671 102.764l16.366-9.553V64.577l-11.85 6.917l-16.368 9.556v71.797l11.852-6.921Zm86.909-83.332l-28.208 16.467l28.208 16.466l28.203-16.47l-28.203-16.463Zm-2.823 37.888l-16.369-9.557l-11.848-6.916v32.597l16.365 9.553l11.852 6.92v-32.597Zm-64.905 73.458l41.373-23.952l20.682-11.968l-28.186-16.456l-32.453 18.946l-29.578 17.267l28.162 16.163Z" clip-rule="evenodd"/>
+                </g>
+              </svg>
+              <div class="text-2xl mt-3 flex justify-center font-body">Laravel</div>
+            </div>
+          </div>
+        </a>
+      
+        <a href="https://vuejs.org/">
+          <div class="border-zinc-500 card opacity-75 hover:opacity-100 shadow-lg hover:shadow-lg hover:shadow-zinc-300">
+            <div class="mx-auto rounded-b h-2 w-52 bg-gradient-to-r from-slate-500 to-gray-900"></div>
+            <div class="p-10">
+              <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 256">
+                <g fill="none">
+                  <rect width="256" height="256" fill="#242938" rx="60"/>
+                  <path fill="#41B883" d="M182 50h36l-90 155.25L38 50h68.85L128 86l20.7-36H182Z"/>
+                  <path fill="#41B883" d="m38 50l90 155.25L218 50h-36l-54 93.15L73.55 50H38Z"/>
+                  <path fill="#fff" d="M73.55 50L128 143.6L182 50h-33.3L128 86l-21.15-36h-33.3Z"/>
+                </g>
+              </svg>
+              <div class="text-2xl mt-3 flex justify-center font-body">Vue.js</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </main>
+
+    <footer class="flex justify-center mt-10 lg:mt-36">
+      <div class="text-xs sm:text-sm font-footer text-gray-800/40">
+        created by
+        <a href="https://github.com/Lenaic-ouendo-01">
+          <span class="font-bold text-indigo-950">×͜× Anonymous_ᗰ𝙰ļ𝕝𐍈ℝ𐍅</span>
+        </a>
+      </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
